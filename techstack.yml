@@ -1,0 +1,421 @@
+repo_name: 2lambda123/popper.js.org
+report_id: c23b352736d0e0043d190558b901b380
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-09T06:54:51+00:00'
+requested_by: 2lambda123
+provider: github
+branch: codesandbox-demos
+detected_tools_count: 28
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/2lambda123/popper.js.org
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/2lambda123/popper.js.org
+  detection_source: Repo Metadata
+- name: Emotion
+  description: The Next Generation of CSS in JS
+  website_url: https://emotion.sh
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/8770/emotion-a76dfa0d18a0536af9e917cdb8f873b9-44576.png
+  detection_source_url: https://github.com/2lambda123/popper.js.org/blob/codesandbox-demos/package.json
+  detection_source: package.json
+  last_updated_by: Federico Zivolo
+  last_updated_on: 2020-04-11 14:06:06.000000000 Z
+- name: Normalize.css
+  description: A modern alternative to CSS resets
+  website_url: https://necolas.github.io/normalize.css/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/6361/default_8c8faac34fdcb5b696503f5166b5232ad0adcf6e.png
+  detection_source_url: https://github.com/2lambda123/popper.js.org/blob/codesandbox-demos/package.json
+  detection_source: package.json
+  last_updated_by: Federico Zivolo
+  last_updated_on: 2020-04-11 14:06:06.000000000 Z
+- name: Preact
+  description: Fast 3kb alternative to React with the same ES6 API
+  website_url: http://developit.github.io/preact/
+  version: 10.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/4388/preact.png
+  detection_source_url: https://github.com/2lambda123/popper.js.org/blob/codesandbox-demos/yarn.lock
+  detection_source: package.json
+  last_updated_by: Federico Zivolo
+  last_updated_on: 2020-10-16 16:21:24.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 16.13.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/2lambda123/popper.js.org/blob/codesandbox-demos/yarn.lock
+  detection_source: package.json
+  last_updated_by: Federico Zivolo
+  last_updated_on: 2020-10-16 16:21:24.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/2lambda123/popper.js.org
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/2lambda123/popper.js.org/blob/codesandbox-demos/.github/workflows/main.yml
+  detection_source: ".github/workflows/main.yml"
+  last_updated_by: Federico Zivolo
+  last_updated_on: 2020-04-11 14:21:35.000000000 Z
+- name: Prettier
+  description: 'Prettier is an opinionated code formatter. '
+  website_url: https://prettier.io/
+  version: 1.19.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: https://github.com/2lambda123/popper.js.org/blob/codesandbox-demos/yarn.lock
+  detection_source: package.json
+  last_updated_by: Federico Zivolo
+  last_updated_on: 2020-04-11 14:06:06.000000000 Z
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/2lambda123/popper.js.org/blob/codesandbox-demos/yarn.lock
+  detection_source: yarn.lock
+  last_updated_by: Federico Zivolo
+  last_updated_on: 2020-04-11 14:06:06.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/2lambda123/popper.js.org/blob/codesandbox-demos/package.json
+  detection_source: package.json
+  last_updated_by: Federico Zivolo
+  last_updated_on: 2020-04-11 14:06:06.000000000 Z
+- name: Google Analytics
+  description: Enterprise-class web analytics.
+  website_url: http://www.google.com/analytics
+  open_source: false
+  hosted_saas: false
+  category: Analytics
+  sub_category: General Analytics
+  image_url: https://img.stackshare.io/service/64/cU74ahCn_400x400.jpg
+  detection_source_url: https://github.com/2lambda123/popper.js.org/blob/codesandbox-demos/package.json
+  detection_source: package.json
+  last_updated_by: Federico Zivolo
+  last_updated_on: 2020-04-11 14:06:06.000000000 Z
+- name: Gatsby
+  description: Free, open source framework for building blazing fast websites and
+    apps with React
+  website_url: https://www.gatsbyjs.org
+  version: 2.20.31
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Static Site Generators
+  image_url: https://img.stackshare.io/service/5472/default_189db484e0770a6101c6a70f0ef0172bc0f8de37.png
+  detection_source_url: https://github.com/2lambda123/popper.js.org/blob/codesandbox-demos/yarn.lock
+  detection_source: package.json
+  last_updated_by: Federico Zivolo
+  last_updated_on: 2020-04-25 14:36:51.000000000 Z
+- name: Prism
+  description: An extensible syntax highlighter, built with modern web standards
+  website_url: https://prismjs.com/
+  version: 1.20.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/10010/Screen_Shot_2012-07-31_at_21.57.03__400x400.png
+  detection_source_url: https://github.com/2lambda123/popper.js.org/blob/codesandbox-demos/yarn.lock
+  detection_source: package.json
+  last_updated_by: Federico Zivolo
+  last_updated_on: 2020-04-11 14:06:06.000000000 Z
+- name: "@emotion/core"
+  description: "&gt; Simple styling in React"
+  package_url: https://www.npmjs.com/@emotion/core
+  version: 10.0.28
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16475/default_482cf308e8fc087eee8e154f29cc142c834abc51.png
+  detection_source_url: https://github.com/2lambda123/popper.js.org/blob/codesandbox-demos/yarn.lock
+  detection_source: package.json
+  last_updated_by: Federico Zivolo
+  last_updated_on: 2020-04-11 14:21:35.000000000 Z
+- name: "@emotion/styled"
+  description: Styled API for emotion
+  package_url: https://www.npmjs.com/@emotion/styled
+  version: 10.0.27
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16702/default_4b738bf1758d38dddd276589bbea47fca5a990df.png
+  detection_source_url: https://github.com/2lambda123/popper.js.org/blob/codesandbox-demos/yarn.lock
+  detection_source: package.json
+  last_updated_by: Federico Zivolo
+  last_updated_on: 2020-04-11 14:06:06.000000000 Z
+- name: "@mdx-js/mdx"
+  description: Parse MDX and transpile to JSX
+  package_url: https://www.npmjs.com/@mdx-js/mdx
+  version: 1.5.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17807/default_b760b4f955878b0055c02bde0608c2f01e7d4f4f.png
+  detection_source_url: https://github.com/2lambda123/popper.js.org/blob/codesandbox-demos/yarn.lock
+  detection_source: package.json
+  last_updated_by: Federico Zivolo
+  last_updated_on: 2020-04-11 14:06:06.000000000 Z
+- name: "@mdx-js/react"
+  description: React implementation for MDX
+  package_url: https://www.npmjs.com/@mdx-js/react
+  version: 1.5.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17624/default_61a119a7701a0e8224ca0e4dce7ff951cd67972f.png
+  detection_source_url: https://github.com/2lambda123/popper.js.org/blob/codesandbox-demos/yarn.lock
+  detection_source: package.json
+  last_updated_by: Federico Zivolo
+  last_updated_on: 2020-10-16 16:21:24.000000000 Z
+- name: gatsby-image
+  description: Lazy-loading React image component with optional support for the blur-up
+    effect
+  package_url: https://www.npmjs.com/gatsby-image
+  version: 2.3.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18081/image.png
+  detection_source_url: https://github.com/2lambda123/popper.js.org/blob/codesandbox-demos/yarn.lock
+  detection_source: package.json
+  last_updated_by: Federico Zivolo
+  last_updated_on: 2020-04-25 14:36:51.000000000 Z
+- name: gatsby-plugin-react-helmet
+  description: Manage document head data with react-helmet
+  package_url: https://www.npmjs.com/gatsby-plugin-react-helmet
+  version: 3.2.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17532/default_8d32936cb624bf7f51657c1540463db0a3c4106e.png
+  detection_source_url: https://github.com/2lambda123/popper.js.org/blob/codesandbox-demos/yarn.lock
+  detection_source: package.json
+  last_updated_by: Federico Zivolo
+  last_updated_on: 2020-10-16 16:21:24.000000000 Z
+- name: gatsby-plugin-sharp
+  description: Wrapper of the Sharp image manipulation library for Gatsby plugins
+  package_url: https://www.npmjs.com/gatsby-plugin-sharp
+  version: 2.5.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17786/default_a53af9d6b5a4c8c6e8d5f8494d76a8d2efd3e660.png
+  detection_source_url: https://github.com/2lambda123/popper.js.org/blob/codesandbox-demos/yarn.lock
+  detection_source: package.json
+  last_updated_by: Federico Zivolo
+  last_updated_on: 2020-04-25 14:36:51.000000000 Z
+  vulnerabilities:
+  - name: Path traversal vulnerability in gatsby-plugin-sharp
+    cve_id: CVE-2023-30548
+    cve_url: https://github.com/advisories/GHSA-h2pm-378c-pcxx
+    detected_date: Apr 21
+    severity: moderate
+    first_patched: 4.25.1
+- name: gatsby-source-filesystem
+  description: Gatsby plugin which parses files within a directory for further parsing
+    by other plugins
+  package_url: https://www.npmjs.com/gatsby-source-filesystem
+  version: 2.2.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17100/default_1dbf402c11ef653fcaedc84e608a244e30ebfb87.png
+  detection_source_url: https://github.com/2lambda123/popper.js.org/blob/codesandbox-demos/yarn.lock
+  detection_source: package.json
+  last_updated_by: Federico Zivolo
+  last_updated_on: 2020-04-25 14:36:51.000000000 Z
+- name: gatsby-transformer-sharp
+  description: Gatsby transformer plugin for images using Sharp
+  package_url: https://www.npmjs.com/gatsby-transformer-sharp
+  version: 2.4.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18094/image.png
+  detection_source_url: https://github.com/2lambda123/popper.js.org/blob/codesandbox-demos/yarn.lock
+  detection_source: package.json
+  last_updated_by: Federico Zivolo
+  last_updated_on: 2020-04-25 14:36:51.000000000 Z
+- name: gh-pages
+  description: Publish to a gh-pages branch on GitHub
+  package_url: https://www.npmjs.com/gh-pages
+  version: 2.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15967/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: https://github.com/2lambda123/popper.js.org/blob/codesandbox-demos/yarn.lock
+  detection_source: package.json
+  last_updated_by: Federico Zivolo
+  last_updated_on: 2020-04-11 14:06:06.000000000 Z
+- name: prismjs
+  description: Lightweight, robust, elegant syntax highlighting
+  package_url: https://www.npmjs.com/prismjs
+  version: 1.20.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16351/default_4cc3f31b8c64a6268fc123f0965a09d1b11180af.png
+  detection_source_url: https://github.com/2lambda123/popper.js.org/blob/codesandbox-demos/yarn.lock
+  detection_source: package.json
+  last_updated_by: Federico Zivolo
+  last_updated_on: 2020-04-11 14:06:06.000000000 Z
+  vulnerabilities:
+  - name: Cross-site Scripting in Prism
+    cve_id: CVE-2022-23647
+    cve_url: https://github.com/advisories/GHSA-3949-f494-cm99
+    detected_date: Feb 26
+    severity: high
+    first_patched: 1.27.0
+  - name: Cross-Site Scripting in Prism
+    cve_id: CVE-2020-15138
+    cve_url: https://github.com/advisories/GHSA-wvhm-4hhf-97x9
+    detected_date: Aug 22
+    severity: high
+    first_patched: 1.21.0
+  - name: Denial of service in prismjs
+    cve_id: CVE-2021-23341
+    cve_url: https://github.com/advisories/GHSA-h4hr-7fg3-h35w
+    detected_date: Aug 22
+    severity: high
+    first_patched: 1.23.0
+  - name: Regular Expression Denial of Service (ReDoS) in Prism
+    cve_id: CVE-2021-32723
+    cve_url: https://github.com/advisories/GHSA-gj77-59wh-66hg
+    detected_date: Aug 22
+    severity: high
+    first_patched: 1.24.0
+  - name: prismjs Regular Expression Denial of Service vulnerability
+    cve_id: CVE-2021-3801
+    cve_url: https://github.com/advisories/GHSA-hqhp-5p83-hx96
+    detected_date: Sep 21
+    severity: moderate
+    first_patched: 1.25.0
+- name: prop-types
+  description: Runtime type checking for React props and similar objects
+  package_url: https://www.npmjs.com/prop-types
+  version: 15.7.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15843/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/2lambda123/popper.js.org/blob/codesandbox-demos/yarn.lock
+  detection_source: package.json
+  last_updated_by: Federico Zivolo
+  last_updated_on: 2020-04-11 14:06:06.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 16.13.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/2lambda123/popper.js.org/blob/codesandbox-demos/yarn.lock
+  detection_source: package.json
+  last_updated_by: Federico Zivolo
+  last_updated_on: 2020-10-16 16:21:24.000000000 Z
+- name: react-helmet
+  description: A document head manager for React
+  package_url: https://www.npmjs.com/react-helmet
+  version: 5.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16513/default_4e3259350c525d1d859fa80a938000081d7c9db8.png
+  detection_source_url: https://github.com/2lambda123/popper.js.org/blob/codesandbox-demos/yarn.lock
+  detection_source: package.json
+  last_updated_by: Federico Zivolo
+  last_updated_on: 2020-10-16 16:21:24.000000000 Z
