@@ -3,7 +3,7 @@
 ## Tech Stack
 2lambda123/popper.js.org is built on the following main stack:
 
-- [Google Analytics](http://www.google.com/analytics) – General Analytics
+- [Google Analytics](http://www.google.com/analytics) \\u2013 Web Analytics Tool
 - [React](https://reactjs.org/) – Javascript UI Libraries
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
 - [Preact](http://developit.github.io/preact/) – Javascript UI Libraries
@@ -13,7 +13,7 @@
 - [Prettier](https://prettier.io/) – Code Review
 - [Emotion](https://emotion.sh) – JavaScript Framework Components
 - [Prism](https://prismjs.com/) – Javascript Utilities & Libraries
-- [GitHub Actions](https://github.com/features/actions) – Continuous Integration
+- [GitHub Actions](https://github.com/features/actions) \\u2013 Continuous Integration
 
 Full tech stack [here](/techstack.md)
 
@@ -208,6 +208,6 @@ Full tech stack [here](/techstack.md)
 |[react-helmet](https://www.npmjs.com/react-helmet)|v5.2.1|10/16/20|Federico Zivolo |MIT|N/A|
 
 <br/>
-<div align='center'>
 
-Generated via [Stack File](https://github.com/marketplace/stack-file)
+
+Generated via [Stack File](https://github.com/marketplace/stack-file) \\\u2013 Stack File
