@@ -9,7 +9,7 @@ branch: codesandbox-demos
 detected_tools_count: 28
 tools:
 - name: CSS 3
-  description: The latest evolution of the Cascading Style Sheets language
+  description: The latest evolution of the Cascading Style Sheets language known as CSS 3 known as CSS 3
   website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
   open_source: true
   hosted_saas: false
@@ -17,6 +17,7 @@ tools:
   sub_category: Languages
   image_url: https://img.stackshare.io/service/6727/css.png
   detection_source_url: https://github.com/2lambda123/popper.js.org
+  detection_source: Repo Metadata
   detection_source: Repo Metadata
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -184,7 +185,7 @@ tools:
   last_updated_by: Federico Zivolo
   last_updated_on: 2020-04-11 14:06:06.000000000 Z
 - name: "@emotion/core"
-  description: "&gt; Simple styling in React"
+  description: "Simple styling in React"
   package_url: https://www.npmjs.com/@emotion/core
   version: 10.0.28
   license: MIT
@@ -406,7 +407,7 @@ tools:
   last_updated_by: Federico Zivolo
   last_updated_on: 2020-10-16 16:21:24.000000000 Z
 - name: react-helmet
-  description: A document head manager for React
+  description: Manage document head data with react-helmet
   package_url: https://www.npmjs.com/react-helmet
   version: 5.2.1
   license: MIT
