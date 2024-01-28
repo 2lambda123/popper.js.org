@@ -74,7 +74,7 @@ type ModifierArguments<Options: Obj> = {
 The name is used as an identifier to make it possible to refer to the modifier
 from other parts of the library. For example, you can add an object to the
 `options.modifier` array with the `name` property, and the `options` property
-populated with some custom options, to override the options of a built-in
+populated with custom options to override the options of a built-in
 modifier.
 
 ```js
@@ -103,7 +103,8 @@ grouped together rather than scattered around the whole lifecycle.
 
 The modifiers that need to read from the DOM should run in the `read` phase, the
 ones that only perform logic with algorithms should live in `main`, and the ones
-that write to the DOM should be under `write`.
+that read them rather than querying the DOM, optimizing the overall
+execution time. This means you should rarely need to hook into the `read` phase.
 
 Note that Popper provides a cache of DOM measurements in its state, so that
 modifiers can read them rather than querying the DOM, optimizing the overall
